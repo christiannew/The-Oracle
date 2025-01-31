@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Placeholder: URL of the trademark database (USPTO, WIPO, etc.)
-TRADEMARK_URL = "https://example.com/trademark-database"
+TRADEMARK_URL = "https://tmsearch.uspto.gov/bin/gate.exe?f=tess&state=4803:4soxxt.1.1"
 
 def fetch_trademark_data():
     """Fetch trademark data from the database."""
